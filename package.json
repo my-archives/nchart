@@ -1,0 +1,25 @@
+{
+  "name": "chart",
+  "version": "0.0.1",
+  "description": "Chart for node.js inspired by Chart.js.",
+  "author": "cfddream@gmail.com",
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "gitHead": "b8ba66830787a6187b4698ae1a59dd896773ccde",
+  "keywords": [ "chart", "canvas", "graphics", "image" ],
+  "main": "./lib/chart.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cfddream/node-chart.git"
+  },
+  "dependencies": {
+    "canvas": "1.0.2"
+  },
+  "devDependencies": {}
+}

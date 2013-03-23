@@ -1,12 +1,11 @@
 {
-  "name": "chart",
+  "name": "nchart",
   "version": "0.0.1",
-  "description": "Chart for node.js inspired by Chart.js.",
+  "description": "nChart for node.js inspired by Chart.js.",
   "author": "cfddream@gmail.com",
   "license": "MIT",
   "readmeFilename": "Readme.md",
-  "gitHead": "b8ba66830787a6187b4698ae1a59dd896773ccde",
-  "keywords": [ "chart", "canvas", "graphics", "image" ],
+  "keywords": [ "chart", "nchart", "canvas", "graphics", "image" ],
   "main": "./lib/chart.js",
   "directories": {
     "test": "test"
@@ -16,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cfddream/node-chart.git"
+    "url": "git://github.com/cfddream/nchart.git"
   },
   "dependencies": {
     "canvas": "1.0.2"

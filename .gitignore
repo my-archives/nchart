@@ -1,4 +1,5 @@
 .DS_Store
+*.swap
 npm-debug.log
 
 test/*.png

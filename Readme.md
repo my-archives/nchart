@@ -5,7 +5,7 @@ nChart for node.js inspired by [Chart.js][].
 
 ## Installation
 
-  $ npm install -g nchart
+    $ npm install -g nchart
 
 ## Features
 

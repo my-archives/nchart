@@ -20,6 +20,10 @@ nChart for node.js inspired by [Chart.js][].
   * Radar chart
   * Bar chart
 
+## Documentation
+
+  You can find documentation at chartjs.org/docs.
+
 ## Thanks to
 
   * https://github.com/visionmedia

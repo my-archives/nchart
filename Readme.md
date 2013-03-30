@@ -22,7 +22,7 @@ nChart for node.js inspired by [Chart.js][].
 
 ## Documentation
 
-  You can find documentation at chartjs.org/docs.
+  You can find documentation at [Chart.js Doc][]
 
 ## Thanks to
 
@@ -56,4 +56,5 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 [Chart.js]: http://www.chartjs.org/
+[Chart.js Doc]: http://www.chartjs.org/docs
 [node-canvas]: https://github.com/LearnBoost/node-canvas

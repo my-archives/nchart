@@ -2,4 +2,4 @@
 *.swap
 npm-debug.log
 
-test/*.png
+examples/*.png

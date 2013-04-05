@@ -13,12 +13,12 @@ nChart for node.js inspired by [Chart.js][].
 
 ## Charts
 
-  * Line chart                    [✔]
-  * Polar area chart
-  * Doughnut chart
-  * Pie chart
-  * Radar chart
-  * Bar chart
+  * [✔] Line chart
+  * [✔] Pie chart
+  * [ ] Polar area chart
+  * [ ] Doughnut chart
+  * [ ] Radar chart
+  * [ ] Bar chart
 
 ## Documentation
 

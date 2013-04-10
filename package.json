@@ -1,6 +1,6 @@
 {
   "name": "nchart",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "nChart for node.js inspired by Chart.js.",
   "author": "cfddream@gmail.com",
   "license": "MIT",

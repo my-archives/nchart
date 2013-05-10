@@ -18,7 +18,7 @@ nChart for node.js inspired by [Chart.js][].
   * [✔] Doughnut chart
   * [✔] Bar chart
   * [✔] Radar chart
-  * [ ] Polar area chart
+  * [✔] Polar area chart
 
 ## Documentation
 

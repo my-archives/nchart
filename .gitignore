@@ -1,5 +1,6 @@
 .DS_Store
+.idea/
 *.swap
 npm-debug.log
-.idea/
+node_modules
 examples/*.png

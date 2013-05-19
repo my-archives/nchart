@@ -5,13 +5,16 @@
   "author": "cfddream@gmail.com",
   "license": "MIT",
   "readmeFilename": "Readme.md",
-  "keywords": [ "chart", "nchart", "canvas", "graphics", "image" ],
+  "keywords": [
+    "chart",
+    "nchart",
+    "canvas",
+    "graphics",
+    "image"
+  ],
   "main": "./lib/chart.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": ""
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,6 @@
     "canvas": "1.0.2"
   },
   "devDependencies": {
-    "mocha": "1.8.2"
+    "mocha": "~1.9.0"
   }
 }

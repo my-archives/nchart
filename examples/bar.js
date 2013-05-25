@@ -3,7 +3,7 @@ var Canvas = require('canvas'),
     ctx = canvas.getContext('2d'),
     Chart = require('../'),
     fs = require('fs'),
-    data = JSON.parse(fs.readFileSync('./bar.json'));
+    data = JSON.parse(fs.readFileSync(__dirname + '/bar.json'));
 
 ctx.fillStyle = '#fff';
 ctx.fillRect(0, 0, canvas.width, canvas.height);

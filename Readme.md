@@ -24,6 +24,11 @@ nChart for node.js inspired by [Chart.js][].
 
   You can find documentation at [Chart.js Doc][]
 
+## Todo
+  * chart-cli
+  * stream
+  * ...
+
 ## Thanks to
 
   * https://github.com/visionmedia

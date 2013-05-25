@@ -3,6 +3,40 @@ nchart
 
 nChart for node.js inspired by [Chart.js][].
 
+```js
+var Canvas = require('canvas')
+  , canvas = new Canvas(800, 800)
+  , ctx = canvas.getContext('2d')
+  , Chart = require('chart')
+  , fs = require('fs');
+
+Chart(ctx).Pie(
+    [
+        {
+            "value": 50
+          , "color": "#E2EAE9"
+        }
+      , {
+            "value": 100
+          , "color": "#D4CCC5"
+        }
+      , {
+            "value": 40
+          , "color": "#949FB1"
+        }
+    ]
+  , {
+      scaleShowValues: true,
+      scaleFontSize: 24
+    }
+);
+
+canvas.toBuffer(function (err, buf) {
+  if (err) throw err;
+  fs.writeFile(__dirname + '/pie.png', buf);
+});
+```
+
 ## Installation
 
     $ npm install -g nchart

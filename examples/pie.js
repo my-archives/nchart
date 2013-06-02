@@ -1,5 +1,5 @@
 var Canvas = require('canvas')
-  , canvas = new Canvas(800, 800)
+  , canvas = new Canvas(900, 900)
   , ctx = canvas.getContext('2d')
   , Chart = require('../')
   , fs = require('fs')

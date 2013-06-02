@@ -1,22 +1,14 @@
 [
   {
     "value": 30,
-    "color":"#F7464A"
+    "color":"#F38630"
   },
   {
     "value": 50,
-    "color": "#E2EAE9"
+    "color": "#E0E4CC"
   },
   {
     "value": 100,
-    "color": "#D4CCC5"
-  },
-  {
-    "value": 40,
-    "color": "#949FB1"
-  },
-  {
-    "value": 120,
-    "color": "#4D5360"
+    "color": "#69D2E7"
   }
 ]

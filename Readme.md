@@ -61,6 +61,7 @@ canvas.toBuffer(function (err, buf) {
 ## Todo
   * chart-cli
   * stream
+  * base64
   * ...
 
 ## Thanks to

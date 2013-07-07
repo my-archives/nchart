@@ -21,7 +21,7 @@
     "url": "git://github.com/cfddream/nchart.git"
   },
   "dependencies": {
-    "canvas": "1.0.2"
+    "canvas": "~1.0.3"
   },
   "devDependencies": {
     "mocha": "~1.9.0"

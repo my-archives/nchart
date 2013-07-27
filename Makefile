@@ -1,11 +1,15 @@
-EXAMPLES=examples
+MOCHA_OPTS= --check-leaks
+REPORTER = dot
 
 test:
-	@./node_modules/.bin/mocha \
-		--require should \
-		--bail
+	@NODE_ENV=test ./node_modules/mocha/bin/mocha \
+		--reporter $(REPORTER) \
+		$(MOCHA_OPTS)
+
+test-cov:
+	@$(MAKE) test MOCHA_OPTS='--require blanket' REPORTER=html-cov > coverage.html
 
 clean:
-	rm -rf ${EXAMPLES}/*.png
+	rm -rf coverage.html
 
-.PHONY: test clean
+.PHONY: test test-cov clean

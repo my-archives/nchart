@@ -13,5 +13,5 @@ Chart(ctx).Line(data, {
 
 canvas.toBuffer(function (err, buf) {
   if (err) throw err;
-  fs.writeFile(__dirname + '/line2.png', buf);
+  fs.writeFile(__dirname + '/line.png', buf);
 });

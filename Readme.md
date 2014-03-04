@@ -68,7 +68,7 @@ canvas.toBuffer(function (err, buf) {
   * https://github.com/visionmedia
   * https://github.com/nnnick
 
-## [Contributors](http://github.com/sole/tween.js/contributors)
+## [Contributors](https://github.com/fundon/nchart/graphs/contributors)
 
 ## License
 

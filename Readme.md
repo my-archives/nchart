@@ -68,6 +68,8 @@ canvas.toBuffer(function (err, buf) {
   * https://github.com/visionmedia
   * https://github.com/nnnick
 
+## [Contributors](http://github.com/sole/tween.js/contributors)
+
 ## License
 
 The MIT License (MIT)

@@ -8,7 +8,11 @@ var Canvas = require('canvas')
 ctx.fillStyle = '#fff';
 ctx.fillRect(0, 0, canvas.width, canvas.height);
 Chart(ctx).Line(data, {
-  scaleOverlay: !true
+  scaleOverlay: !true,
+  scaleOverride: true,
+  scaleSteps: 10,
+  scaleStartValue: 0,
+  scaleStepWidth: 10
 });
 
 canvas.toBuffer(function (err, buf) {

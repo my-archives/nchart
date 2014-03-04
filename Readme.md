@@ -7,7 +7,7 @@ nChart for node.js inspired by [Chart.js][].
 var Canvas = require('canvas')
   , canvas = new Canvas(800, 800)
   , ctx = canvas.getContext('2d')
-  , Chart = require('chart')
+  , Chart = require('nchart')
   , fs = require('fs');
 
 Chart(ctx).Pie(

@@ -58,10 +58,6 @@ canvas.toBuffer(function (err, buf) {
 
   You can find documentation at [Chart.js Doc][]
 
-## Todo
-  * chart-cli
-  * stream
-  * ...
 
 ## Thanks to
 

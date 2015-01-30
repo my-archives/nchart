@@ -3,17 +3,12 @@ var Canvas = require('canvas')
   , ctx = canvas.getContext('2d')
   , Chart = require('../')
   , fs = require('fs')
-  , data = JSON.parse(fs.readFileSync(__dirname + '/polararea.json'));
+  , data = require('./polararea.json');
 
+ctx.fillStyle = '#fff';
+ctx.fillRect(0, 0, canvas.width, canvas.height);
 //new Chart(ctx).PolarArea(data, {
-Chart(ctx).PolarArea(data, {
-  scaleFontFamily : "'Helvetica'",
-  scaleFontSize : 13,
-  scaleFontStyle : "bold",
-  scaleFontColor : "#333",
-  scaleShowLabelBackdrop : true,
-  scaleBackdropColor : "#fafafa"
-});
+new Chart(ctx).PolarArea(data);
 
 canvas.toBuffer(function (err, buf) {
   if (err) throw err;

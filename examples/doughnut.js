@@ -1,13 +1,12 @@
 var Canvas = require('canvas')
-  , canvas = new Canvas(800, 800)
+  , canvas = new Canvas(500, 500)
   , ctx = canvas.getContext('2d')
   , Chart = require('../')
   , fs = require('fs')
-  , data = JSON.parse(fs.readFileSync(__dirname + '/doughnut.json'));
+  , data = require('./doughnut.json');
 
-Chart(ctx).Doughnut(data, {
-  scaleShowValues: true,
-  scaleFontSize: 24
+new Chart(ctx).Doughnut(data, {
+  //responsive : true
 });
 
 canvas.toBuffer(function (err, buf) {

@@ -1,1 +1,4 @@
-module.exports = require('./lib/chart');
+// hacked for io.js/node.js
+global.window || (global.window = global);
+
+module.exports = require('./Chart');

@@ -1,10 +1,9 @@
 {
   "name": "nchart",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "description": "nChart for node.js inspired by Chart.js.",
   "author": "FangDun Cai <cfddream@gmail.com>",
   "license": "MIT",
-  "readmeFilename": "Readme.md",
   "keywords": [
     "chart",
     "nchart",
@@ -12,17 +11,14 @@
     "graphics",
     "image"
   ],
-  "main": "./lib/chart.js",
+  "main": "index.js",
   "scripts": {
     "test": "make test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/cfddream/nchart.git"
-  },
+  "repository": "cfddream/nchart.git",
   "devDependencies": {
-    "canvas": "1.1.3",
-    "mocha": "~1.9.0",
-    "should": "~3.1.3"
+    "canvas": "1.1.6",
+    "mocha": "1.9.0",
+    "should": "3.1.3"
   }
 }

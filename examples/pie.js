@@ -5,7 +5,7 @@ var Canvas = require('canvas')
   , fs = require('fs')
   , data = JSON.parse(fs.readFileSync(__dirname + '/pie.json'));
 
-Chart(ctx).Pie(data, {
+new Chart(ctx).Pie(data, {
   scaleShowValues: true,
   scaleFontSize: 24
 });

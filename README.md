@@ -61,4 +61,5 @@ canvas.toBuffer(function (err, buf) {
   [MIT](LICENSE)
 
 [node-canvas]: https://github.com/Automattic/node-canvas
-[Chart.js Doc]: www.chartjs.org/docs/
+[Chart.js]: http://www.chartjs.org/
+[Chart.js Doc]: http://www.chartjs.org/docs/
